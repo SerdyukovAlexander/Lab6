@@ -12,13 +12,13 @@ using System.Windows.Shapes;
 namespace Lab6;
 
 /// <summary>
-/// Interaction logic for MainWindow.xaml
+/// Interaction logic for Task1.xaml
 /// </summary>
-public partial class MainWindow : Window
+public partial class Task1 : Window
 {
     private HashTable hashTable;
 
-    public MainWindow()
+    public Task1()
     {
         InitializeComponent();
         hashTable = new HashTable();  // Инициализация хеш-таблицы
